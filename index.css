@@ -55,6 +55,34 @@ body{
     width: 100%;
     border-radius: 20px;
 }
+.formulario{
+    width: 100%;
+}
+form{
+    width: 70%;
+    margin: auto;
+}
+input{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px; 
+    padding:5px;
+    outline: 0;
+    
+}
+
+.formulario h3{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+h2{
+    color: rgb(0, 195, 255);
+    text-align: center;
+    padding-top: 5px;
+    
+}
 
 
 
