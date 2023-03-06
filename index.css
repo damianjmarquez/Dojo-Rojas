@@ -2,13 +2,13 @@
     padding: 0;
     margin: 0;
 }
+/* INICIO */
 body{
     background-color: black;
 }
 
 .contenedor{
     width: 90%;
-    height: 100px;
     margin:auto;
 }
 .contenido{
@@ -30,8 +30,33 @@ body{
     text-decoration: none;
     padding-top: 15px;
     padding-bottom: 5px;
+    margin-bottom: 20px;
     border-bottom: 1px solid rgb(255, 255, 255);
 }
+.inicio{
+    color: red;
+}
+
+
+/* SOY ALUMNO */
+
+.contenedoralumno{
+    width: 70%;
+    margin: auto;
+    border: 2px solid red;
+    border-radius: 20px;
+}
+
+.imagen{
+    width: 100%;
+    
+}
+.imagen img{
+    width: 100%;
+    border-radius: 20px;
+}
+
+
 
 
 
@@ -42,6 +67,7 @@ body{
 
     .contenedor{
         padding-top: 50%;
+        width:100%;
         
     }
     .contenedorMenu a{
