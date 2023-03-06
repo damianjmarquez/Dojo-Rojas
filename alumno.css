@@ -110,6 +110,21 @@ button{
     font-size: 30px;
   
 }
+.desplegable2{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+   
+    
+}
+.desplegable2 a{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid rgb(83, 83, 83);
+}
 
 
 @media (max-width:500px){
@@ -118,5 +133,6 @@ button{
     }
     .menu{
         display: block;
+       
     }
 }

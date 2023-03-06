@@ -44,3 +44,12 @@ function nComentario(){
 
 
 
+function abrir(){
+    document.getElementById("info").style.margin="100px";
+    
+    
+    
+}
+
+
+
