@@ -89,6 +89,9 @@ h2 a{
     text-decoration: none;
     color: rgb(0, 136, 255);
 }
+a:hover{
+    color: red;
+}
 button{
     background-color: red;
     border: none;
