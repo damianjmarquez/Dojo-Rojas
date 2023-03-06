@@ -7,7 +7,6 @@ body{
 }
 
 .contenedor{
-    padding-top: 40%;
     width: 90%;
     height: 100px;
     margin:auto;
@@ -40,6 +39,11 @@ body{
 
 
 @media (max-width:500px){
+
+    .contenedor{
+        padding-top: 50%;
+        
+    }
     .contenedorMenu a{
         width: 55%;
         text-align: center;
