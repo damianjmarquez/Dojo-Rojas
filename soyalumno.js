@@ -5,7 +5,7 @@ function login(){
     contrasena = document.getElementById("Contrasena").value;
 
     if (usuario == "damian" && contrasena == "1234"){
-        window.location.href = ("alumno.html");
+        window.location.href = ("alum.html");
         alert("datos correctos")
     }
     else{
