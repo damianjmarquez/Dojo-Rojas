@@ -42,13 +42,17 @@ function nComentario(){
         }    
 }
 
+//alumno
 
 
 function abrir(){
-    document.getElementById("info").style.margin="100px";
     
+    document.getElementById("info").style.display= "block";  
+}
+
+function cerrar(){
     
-    
+    document.getElementById("info").style.display= "none";  
 }
 
 
