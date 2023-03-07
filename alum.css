@@ -21,20 +21,29 @@ body{
     width: 100%;
 }
 .contenedorMenu{
+    margin-top: 10px;
     width: 100%;
     display: flex;
+    border-radius: 10px;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: rgb(44, 44, 44);
     
 }
-.contenedorMenu a{
+.contenedorMenu .link{
     
     color: white;
     text-decoration: none;
-    padding-top: 15px;
-    padding-bottom: 5px;
+    margin-top: 20px;
     margin-bottom: 20px;
-    border-bottom: 1px solid rgb(255, 255, 255);
+    
+    
+    
+}
+.contenedor .link:hover{
+    color: red;
+    border-bottom: 1px solid rgb(78, 78, 78);
+    
 }
 
 .menu{
@@ -70,8 +79,8 @@ button{
 .desplegable a{
     width: 100%;
     text-decoration: none;
-    padding-bottom:10px;
-    color: white;
+    
+    color: rgb(255, 255, 255);
 
 }
 .desplegable a:hover{

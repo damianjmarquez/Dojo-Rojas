@@ -206,6 +206,8 @@ button{
 .foto p{
     color:white;
     text-align: justify ;
-    margin-bottom: 20px;
+    margin: 10px;
+    text-align:center;
+    font-size: 25px;
     
 }
