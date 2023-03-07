@@ -18,6 +18,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
 .contenedor{
     
     border: 2px solid rgb(0, 183, 255);
@@ -116,7 +117,7 @@ ul{
 
 }
 
-button{
+.btn{
     padding: 12px 20px 12px 20px;
     border-radius:20px;
     border: 0;
@@ -155,11 +156,32 @@ button{
 .imagenexamen img{
     width:100%;     
 }
-h1{
-    color: white;
-    text-align: center;
+.examen{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
     border-bottom: 1px solid red;
     border-top: 1px solid red;
+
+}
+h1{
+    padding-left: 30%;
+    color: white;
+    text-align: center;
+    
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+button{
+    margin-left: 20%;
+    padding: 3px;
+    width: 80px;
+    border-radius: 5px;
+    background-color: rgb(26, 26, 26);
+    border: 2px solid rgb(0, 204, 255);
+    color: white;
 }
 .fotosexamen{
     margin-top: 20px;

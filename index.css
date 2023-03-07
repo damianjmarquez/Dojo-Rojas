@@ -25,25 +25,57 @@ body{
     justify-content: space-around;
     flex-wrap: wrap;
 }
-.contenedorMenu a{
-    color: white;
-    text-decoration: none;
-    padding-top: 15px;
-    padding-bottom: 5px;
-    margin-bottom: 20px;
-    border-bottom: 1px solid rgb(255, 255, 255);
-}
+
 .inicio{
     color: red;
 }
 
 
+
+.desplegable{
+    margin-top: 10px;
+    display: flex;
+    background-color: rgba(112, 112, 112, 0.2);
+    flex-direction: column;
+    flex-wrap: wrap;
+    width:60%;
+    max-width: 500px;
+    text-align: center;
+    border-radius: 15px;
+
+    
+    
+}
+.desplegable a{
+    color: white;
+    text-decoration: none;
+    padding-bottom:10px;
+    
+
+}
+.desplegable a:hover{
+    color: red;
+}
+
+.desplegable div{
+    border-bottom: 1px solid rgb(65, 64, 64);
+    margin-bottom: 40px;
+    padding-bottom:5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+
+
+
+
 /* SOY ALUMNO */
 
 .contenedoralumno{
-    width: 70%;
+    width: 90%;
+    max-width: 500px;
     margin: auto;
-    border: 2px solid red;
+    border: 1px solid red;
     border-radius: 20px;
 }
 
@@ -82,12 +114,14 @@ h2{
     color: rgb(0, 195, 255);
     text-align: center;
     padding-top: 4px;
+    font-size: 25px;
 
     
 }
 h2 a{
+    
     text-decoration: none;
-    color: rgb(0, 136, 255);
+    color: rgb(0, 225, 255);
 }
 a:hover{
     color: red;
@@ -99,6 +133,7 @@ button{
     color: white;
     height: 30px;
     border-radius: 6px;
+    margin-bottom: 20px;
 }
 
 
@@ -114,7 +149,7 @@ button{
 @media (max-width:500px){
 
     .contenedor{
-        padding-top: 50%;
+        padding-top: 30%;
         width:100%;
         
     }
