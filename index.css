@@ -70,7 +70,10 @@ body{
 
 
 /* SOY ALUMNO */
-
+.popup{
+    border-radius: 80px;
+    background-color: rgb(0, 247, 255);
+}
 .contenedoralumno{
     width: 90%;
     max-width: 500px;

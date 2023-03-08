@@ -66,8 +66,102 @@ function blanco(){
         color:"black",
         confirmButtonText: "volver",
         background: "white",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
         
-        grow:"fullscreen"
+        
+    });
+}
+
+function celeste(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Fugiu Kata Daini.<br><br> Naihanchi Niban.<br><brNaihanchi Sanban.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "rgb(0, 247, 255)",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
+         
+    });
+}
+
+function amarillo(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Piñan Ichiban o Yodan.<br><br> Piñan Niban.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "yellow",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
+         
+    });
+}
+
+function naranja(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Piñan Sanban.<br><br> Piñan Yondan.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "orange",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
+        
+    });
+}
+
+function verde(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Piñan Godan.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "green",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
+         
+    });
+}
+
+function azul(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Kusanku Sho.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "blue",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera", 
+    });
+}
+
+function marron(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Itosu No Passai. Passai Sho.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "brown",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
+        
+    });
+}
+
+function negro(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Matsumura No Passai. <br><br>Passai Dai.<br><br>Chinto.</p>",
+        color:"white",
+        confirmButtonText: "volver",
+        background: "black",
+        confirmButtonText:"Volver",
+        footer:"Sigue adelante prospera",
+        
+        
+       
     });
 }
 
