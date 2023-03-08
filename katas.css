@@ -7,6 +7,11 @@ body{
     background-color: black;
 }
 
+h3{
+    color:white;
+    text-align: justify;
+}
+
 .contenedor{
     width: 90%;
     margin:auto;

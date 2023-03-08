@@ -219,3 +219,26 @@ button{
     font-size: 25px;
     
 }
+
+
+/*beneficio en los niños*/
+
+.primero{
+    margin-top: 20px;
+    width: 100%;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+.rojo{
+    color: red;
+    font-size: 20px;
+    font-family: sans-serif;
+
+}
+
+.parrafoniños{
+    margin: 10px;
+    color:white;
+    text-align: justify;
+}

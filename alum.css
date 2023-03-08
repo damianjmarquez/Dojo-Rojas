@@ -33,6 +33,7 @@ body{
 .contenedorMenu .link{
     
     color: white;
+    padding-left: 15px;
     text-decoration: none;
     margin-top: 20px;
     margin-bottom: 20px;
