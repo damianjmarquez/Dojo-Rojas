@@ -6,7 +6,9 @@ function login(){
 
     if (usuario == "damian" && contrasena == "1234"){
         window.location.href = ("alum.html");
-        alert("datos correctos")
+        swal.fire({
+            title: "bienvenido"
+        });
     }
     else{
         alert("datos incorrectos")
@@ -56,4 +58,18 @@ function cerrar(){
 }
 
 
+
+
+
+function blanco(){
+    swal.fire({
+        title: "PREPARA BIEN ",
+        html: "<p>Kihon Kata Ichiban.<br><br> Kihon Kata Niban.<br><br>Kihon Kata Sanban.<br><br>Fugiu Kata Daichi.<br><br>Naihanchi Yodan.</p>",
+        color:"black",
+        confirmButtonText: "volver",
+        background: "white",
+        
+        grow:"fullscreen"
+    });
+}
 
