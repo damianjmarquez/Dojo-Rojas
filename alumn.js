@@ -1,12 +1,21 @@
-
-swal.fire({
-    title: "bienvenido",
-    input:"select",
-    inputPlaceholder:"Ingrese Categoria",
-    inputOptions:{
-        primero: "1er kiu (Blanco)",
-        segundo: "2do kiu (celeste)",
-        tercero: "3ro kiu (amarillo)",
-        cuarto: "4to kiu (naranja)"
-    }
+(async () =>{
+const {value: Nombre}= await swal.fire({
+    title: "Hola bienvenido a la falimia ",
+    html: "<p>INGRESA TU NOMBRE</p>",
+    input: "text",
+    inputPlaceholder: "Nombre",
+    
 });
+
+if (Nombre){
+    swal.fire({
+        title: "HOLA " + Nombre,
+        html: "<p>TE SOY NUEVAMENTE LA VIENVENIDA</p>",
+
+    });
+
+}
+
+    
+})()
+

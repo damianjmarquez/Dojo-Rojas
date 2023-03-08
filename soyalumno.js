@@ -6,9 +6,7 @@ function login(){
 
     if (usuario == "damian" && contrasena == "1234"){
         window.location.href = ("alum.html");
-        swal.fire({
-            title: "bienvenido"
-        });
+        alert("excelente precione aceptar")
     }
     else{
         alert("datos incorrectos")
