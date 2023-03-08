@@ -14,7 +14,7 @@ const {value: Nombre}= await swal.fire({
 if (Nombre){
     swal.fire({
         title: "HOLA " + Nombre,
-        html: "<p>TE DOY NUEVAMENTE LA VIENVENIDA</p>",
+        html: "<p>TE DOY NUEVAMENTE LA BIENVENIDA</p>",
         confirmButtonText:"Adelante",
         background:"rgb(36, 36, 36)",
         color:"white"

@@ -4,7 +4,7 @@ function login(){
     usuario = document.getElementById("Usuario").value;
     contrasena = document.getElementById("Contrasena").value;
 
-    if (usuario == "damian" && contrasena == "1234"){
+    if (usuario == "DOJOROJAS" && contrasena == "DJM39"){
         window.location.href = ("alum.html");
         alert("excelente precione aceptar")
     }

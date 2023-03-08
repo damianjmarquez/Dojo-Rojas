@@ -152,7 +152,9 @@ body{
 .contenedoralumno{
     width: 90%;
     max-width: 500px;
+    
     margin: auto;
+    margin-top: 100px;
     border: 1px solid red;
     border-radius: 20px;
 }
@@ -224,12 +226,17 @@ button{
 @media (max-width:500px){
 
     .contenedor{
-        padding-top: 30%;
+         
         width:100%;
         
     }
     .contenedorMenu a{
         width: 55%;
         text-align: center;
+    }
+    .contenedoralumno{
+        
+        margin-top: 40%;
+      
     }
 }
