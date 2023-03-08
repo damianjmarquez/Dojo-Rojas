@@ -159,23 +159,29 @@ ul{
 .examen{
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     border-bottom: 1px solid red;
     border-top: 1px solid red;
 
 }
 h1{
-    padding-left: 30%;
+   
     color: white;
     text-align: center;
     
+}
+h3{
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    color: red;
 }
 a{
     color: white;
     text-decoration: none;
 }
 button{
-    margin-left: 20%;
+    
     padding: 3px;
     width: 80px;
     border-radius: 5px;
@@ -188,13 +194,15 @@ button{
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
     
     
 }
 .foto{
     width: 500px;
-    margin: auto;
     padding: 10px;
+    margin-right: 10px;
     border: 1px solid white;
     margin-bottom: 20px;
     
@@ -207,7 +215,7 @@ button{
     color:white;
     text-align: justify ;
     margin: 10px;
-    text-align:center;
+    
     font-size: 25px;
     
 }
