@@ -120,6 +120,8 @@ body{
     height: 250px;
 }
 .itemsl{
+    margin-top: 10px;
+    margin-bottom: 10px;
     text-align: center;
     color: white;
     font-size: 20px;
@@ -253,7 +255,39 @@ h1{
     font-size: 30px;
 }
 
+.ubicacion{
+    margin-top: 30px;
+    margin-bottom:15px;
+    color: red;
+    text-align: center;
+    font-size: 35px;
+}
+.centros{
+    margin-top: 20px;
+    display: flex;
+   
+    justify-content: center;
+    flex-wrap: wrap;
+}
 
+.contenedorimagen{
+    margin-left: 10px;
+    margin-top: 20px;
+    width: 300px;
+    border: 1px solid red;
+    padding: 5px;
+}
+
+.imagenesdelosdojos{
+    
+    width: 100%;
+}
+.clased{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin-top: 20px;
+}
 
 
 
