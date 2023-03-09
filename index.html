@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio</title>
     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="ws.css">
 </head>
 <body>
     <div class="contenedor">
@@ -23,6 +24,12 @@
                     <div><a href="niños.html"> <span class="soyalumno">BENEFICIO EN NIÑOS</span></a></div>
 
                     <div><a href="dojobonenkai.html"> <span class="soyalumno">DOJO Y BONENKAI</span></a></div>
+
+                    <div><a href="#contacto"> <span class="soyalumno">CONTACTO</span></a></div>
+
+                    <div><a href="#lemas"> <span class="soyalumno">NUESTROS LEMAS</span></a></div>
+
+                    <div><a href="#filosofia"> <span class="soyalumno">FILOSOFIA</span></a></div>
                     
                 </div>
             </div>
@@ -34,7 +41,7 @@
                     <img class="igual" src="imagenes/kobudo.png" alt="">
                 </div>
             </div>
-            <h1 class="titulo">NUESTROS LEMAS</h1>
+            <h1 id="lemas" class="titulo">NUESTROS LEMAS</h1>
             <div class="comentario">
                 
                 <div class="fotolema">
@@ -79,7 +86,7 @@
 
 
             </div>
-                <div class="contorno">
+                <div id="filosofia" class="contorno">
                 <p class="itemsl">Ame y respete todas las Artes marciales, los buenos o malos son los
                     hombres <br><br>
                      Un Karate-Ka debe tener un cuerpo fuerte y una mente sana, para ser útil a la
@@ -92,6 +99,10 @@
                 <p class="itemsl">RESPETO <br><br> JUSTICIA <br><br>ESFUERZO<br><br>
                     ARMONÍA<br><br>RESPONSABILIDAD
                     </p>
+                    <div class="palabra">
+                        <h1>SELECCIONA LA PALABRA PARA SABER SU SIGNIFICADO</h1>
+                    </div>
+                    
                 <div class="botonessignificados">
                     <button onclick="boton1()" class="botonessign">KARATE-DO</button>
                     <button onclick="boton2()" class="botonessign">DOJO</button>
@@ -109,11 +120,18 @@
         </div>
        
     </div>
-    <div class="redes">
+    <div id="contacto" class="redes">
         <a href="https://www.facebook.com/dojorojascordoba?mibextid=ZbWKwL"><svg class="face" xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"   viewBox="0 0 16 16">
             <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
           </svg><h3 class="f">Facebook</h3> </a>
-          
+        
+           
+              <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+              <a href="https://api.whatsapp.com/send?phone=3512395566&text= hola%20que%20tal%20" class="float" target="_blank">
+              <i class="fa fa-whatsapp my-float"></i>
+              </a> 
+             
+         
     </div>
     <script src="botones.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>

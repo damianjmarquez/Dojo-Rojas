@@ -1,3 +1,7 @@
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     padding: 0;
     margin: 0;
@@ -237,6 +241,16 @@ button{
     color: white;
     margin-left: 5px;
     text-decoration: none;
+}
+.palabra{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-size: 30px;
 }
 
 
