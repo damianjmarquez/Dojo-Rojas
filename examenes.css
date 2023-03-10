@@ -229,8 +229,7 @@ button{
     width: 100%;
     border: 1px solid red;
     padding: 15px;
-    display: flex;
-    justify-content: center;
+   
 }
 
 .rojo{
