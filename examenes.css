@@ -229,6 +229,8 @@ button{
     width: 100%;
     border: 1px solid red;
     padding: 15px;
+    display: flex;
+    justify-content: center;
 }
 
 .rojo{
@@ -242,4 +244,43 @@ button{
     margin: 10px;
     color:white;
     text-align: justify;
+    
 }
+
+
+/*SENSEI*/
+
+.fotosexamen{
+    width: 100%;
+    margin: auto;
+    margin-top: 40px;
+
+}
+.sensei{
+    width: 80%;
+    display: flex;
+    
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.fotosensei{
+    
+    width: 400px;
+}
+.imagensensei{
+    width: 100%;
+}
+
+.parrafosensei{
+    margin-top: 30px;
+}
+
+/*TORNEOS*/
+.carrucel{
+    width: 70%;
+}
+
+
+
+
